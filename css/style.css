@@ -11,6 +11,7 @@
     --white: white;
     --viola: #9792e4;
     --grigio: #333333;
+    --nero: black;
 }
 
 .container{
@@ -62,6 +63,25 @@ header{
     z-index: 1;
     color: var(--white);
 }
+
+nav{
+    padding: 10px 0px;
+}
+
+header ul{
+   list-style: none;
+   display: none;
+}
+
+.button{
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.black{
+    color: var(--nero);
+}
+
 /* fine header */
 
 
@@ -175,6 +195,22 @@ footer{
 }
 
 @media screen and (min-width: 992px) {
+
+    header ul{
+        display: flex;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: var(--white);
+        padding: 0px 10px;
+    }
+
+    .dnone{
+        display: none;
+    }
+
+
     .container{
         max-width: 960px;
     }
