@@ -32,7 +32,7 @@
 }
 
 .box{
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 .celeste{
@@ -43,12 +43,17 @@
     background-color: var(--viola);
 }
 
-.white{
+.bgwhite{
     background-color: white;
 }
 
 .text-center{
     text-align: center;
+}
+
+.bgblue{
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 /* fine common */
@@ -99,7 +104,31 @@ main{
     margin: 2rem 0;
 }
 
+#demo img{
+    width: 50%;
+    padding-top: 20px;
+}
 
+.justify-center{
+    justify-content: center;
+}
+
+.card i{
+    font-size: 40px;
+    color: var(--blue);
+}
+
+#demo h3{
+    color: var(--blue);
+}
+#demo .card .fa-apple{
+    font-size: 20px;
+    color: var(--white);
+}
+
+#demo a{
+    text-decoration: none;
+}
 #strategic{
     background-color:var(--viola);
     padding: 2rem 0;
@@ -160,6 +189,11 @@ footer{
         width: calc((100% / 3 * 2) - 1rem);
     }
 
+
+    #demo .start{
+        text-align: start;
+
+    }
     #partner .card{
         display: flex;
     }
@@ -210,6 +244,9 @@ footer{
         display: none;
     }
 
+    #demo img{
+        width: 70%;
+    }
 
     .container{
         max-width: 960px;
@@ -241,8 +278,3 @@ footer{
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .container{
-        max-width: 1170px;
-    }
-}
