@@ -6,7 +6,8 @@
 
 :root{
     --blue: #0084fd;
-    --aqua: aquamarine;
+    --celeste: #b5ddff;
+    --white: white;
 }
 
 
@@ -17,6 +18,7 @@ header{
     left: 0;
     width: 100%;
     z-index: 1;
+    color: var(--white);
 }
 
 .container{
@@ -39,7 +41,21 @@ header{
 .box{
     height: 50px;
     padding: 1rem;
-    background-color: var(--aqua);
+    
+}
+
+main{
+    padding-top: 100px;
+}
+
+.card{
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+
+.celeste{
+    background-color: var(--celeste);
 }
 
 
@@ -49,11 +65,38 @@ header{
     .container{
         max-width: 740px;
     }
+
+    #demo .cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0.50rem;
+        margin-left: 0.50rem;
+    }
+
+    #demo .card{
+        width: calc((100% / 3) - 1rem);
+        margin-right: 0.50rem;
+        margin-left: 0.50rem;
+    }
+
+    #demo .big{
+        width: calc((100% / 3 * 2) - 1rem);
+    }
+
+    
 }
 
 @media screen and (min-width: 992px) {
     .container{
         max-width: 960px;
+    }
+
+    .cards .big{
+        display: flex;
+    }
+
+    .cards .big > div{
+        width: 50%;
     }
 }
 
