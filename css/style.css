@@ -4,22 +4,13 @@
     box-sizing: border-box;
 }
 
+/* common */
 :root{
     --blue: #0084fd;
     --celeste: #b5ddff;
     --white: white;
     --viola: #9792e4;
-}
-
-
-header{
-    background-color: var(--blue);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    color: var(--white);
+    --grigio: #333333;
 }
 
 .container{
@@ -40,9 +31,41 @@ header{
 }
 
 .box{
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
+.celeste{
+    background-color: var(--celeste);
+}
+
+.violet{
+    background-color: var(--viola);
+}
+
+.white{
+    background-color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* fine common */
+
+/* inizio header */
+header{
+    background-color: var(--blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: var(--white);
+}
+/* fine header */
+
+
+/*main*/
 main{
     padding-top: 100px;
 }
@@ -56,9 +79,6 @@ main{
     margin: 2rem 0;
 }
 
-.celeste{
-    background-color: var(--celeste);
-}
 
 #strategic{
     background-color:var(--viola);
@@ -74,31 +94,32 @@ main{
     margin: 2rem 0;
 }
 
-.violet{
-    background-color: var(--viola);
-}
-
-.white{
-    background-color: white;
-}
-
 #benefits{
     padding: 3rem 0;
 }
 
-
+#about .columns{
+    padding: 30px 0px;
+}
 #benefits .card{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.text-center{
-    text-align: center;
+#download .text-center{
+    padding: 30px 0px;
 }
+/*fine main*/
 
+/* footer */
+footer{
+    background-color: var(--grigio);
+    color: var(--white);
+    padding: 20px 0px;
+}
+/* fine footer */
 
 /*media*/
-
 @media screen and (min-width: 768px) {
     .container{
         max-width: 740px;
@@ -107,8 +128,6 @@ main{
     #demo .cards{
         display: flex;
         flex-wrap: wrap;
-        margin-right: 0.50rem;
-        margin-left: 0.50rem;
     }
 
     #demo .card{
