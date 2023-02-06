@@ -49,11 +49,14 @@ main{
     padding-top: 100px;
 }
 
-.card{
+#demo .card{
     margin-bottom: 1rem;
     border-radius: 20px;
 }
 
+.cards{
+    margin: 2rem 0;
+}
 
 .celeste{
     background-color: var(--celeste);
@@ -67,6 +70,20 @@ main{
 #strategic .column{
     margin: 1rem;
 }
+
+#partner{
+    padding: 2rem 0;
+}
+
+#partner .card{
+    margin: 2rem 0;
+}
+
+.violet{
+    background-color: var(--viola);
+}
+
+
 
 /*media*/
 
@@ -90,6 +107,14 @@ main{
 
     #demo .big{
         width: calc((100% / 3 * 2) - 1rem);
+    }
+
+    #partner .card{
+        display: flex;
+    }
+    
+    #partner .card div:last-child {
+        flex-grow: 1
     }
 
     
