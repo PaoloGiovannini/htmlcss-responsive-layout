@@ -8,6 +8,7 @@
     --blue: #0084fd;
     --celeste: #b5ddff;
     --white: white;
+    --viola: #9792e4;
 }
 
 
@@ -58,6 +59,14 @@ main{
     background-color: var(--celeste);
 }
 
+#strategic{
+    background-color:var(--viola);
+    padding: 2rem 0;
+}
+
+#strategic .column{
+    margin: 1rem;
+}
 
 /*media*/
 
@@ -97,6 +106,17 @@ main{
 
     .cards .big > div{
         width: 50%;
+    }
+
+    #strategic .columns{
+        display:flex;
+        padding: 0 6rem;
+        align-items: flex-end;
+    }
+
+     #strategic .column{
+        width: calc(50% - 1rem);
+        margin: 0.5rem;
     }
 }
 
