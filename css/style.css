@@ -75,6 +75,10 @@
     justify-content: center;
 }
 
+.button2{
+    padding: 8px 40px;
+}
+
 /* fine common */
 
 /* inizio header */
@@ -124,12 +128,9 @@ main{
     padding-top: 20px;
 }
 
-#demo .button2{
-    padding: 8px 40px;
-}
 
 .card i{
-    font-size: 40px;
+    font-size: 60px;
     color: var(--blue);
 }
 
@@ -152,7 +153,7 @@ main{
 }
 
 #strategic i{
-    padding: 10px;
+    padding: 15px;
 }
 
 #strategic img{
@@ -235,7 +236,8 @@ footer{
     #partner .partner-text{
         width: 70%;
         text-align: start;
-        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
     }
     
     #partner .partner-img{
@@ -243,7 +245,7 @@ footer{
     }
 
     #partner img{
-        width: calc(100% - 20px);
+        width: calc(100% - 40px);
         
     }
 
