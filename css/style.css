@@ -62,6 +62,10 @@ html{
     color: var(--white);
 }
 
+.violet{
+    color: var(--viola);
+}
+
 .text-center{
     text-align: center;
 }
@@ -80,6 +84,10 @@ html{
 
 .button2{
     padding: 8px 40px;
+}
+
+.padding1rem{
+    padding: 1rem;
 }
 
 /* fine common */
@@ -167,7 +175,6 @@ main{
     margin-bottom: 60px;
 }
 
-
 #partner{
     padding: 2rem 0;
 }
@@ -187,7 +194,21 @@ main{
 }
 
 #benefits{
-    padding: 3rem 0;
+    padding: 2rem 0;
+}
+
+#benefits .card h1{
+    font-size: 50px
+}
+
+#benefits span{
+    display: inline-block;
+    margin: 1rem;
+}
+
+#benefits a{
+    text-decoration: none;
+    color: var(--white);
 }
 
 #about .columns{
@@ -259,8 +280,6 @@ footer{
         width: calc(100% - 40px);
         
     }
-
-   
 
     #benefits .cards{
         display: flex;
