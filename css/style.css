@@ -35,33 +35,44 @@
     padding: 1rem 0.5rem;
 }
 
-.celeste{
+.bgceleste{
     background-color: var(--celeste);
 }
 
-.violet{
+.bgviolet{
     background-color: var(--viola);
 }
 
 .bgwhite{
-    background-color: white;
-}
-
-.text-center{
-    text-align: center;
+    background-color: var(--white);
 }
 
 .bgblue{
     background-color: var(--blue);
-    color: var(--white);
+}
+
+.black{
+    color: var(--nero);
 }
 
 .white{
     color: var(--white);
 }
 
-.border-radius{
+.text-center{
+    text-align: center;
+}
+
+.border-radius20{
     border-radius: 20px;
+}
+
+.border-radius50{
+    border-radius: 50%;
+}
+
+.justify-center{
+    justify-content: center;
 }
 
 /* fine common */
@@ -89,11 +100,6 @@ header ul{
 
 .button{
     padding: 5px 10px;
-    border-radius: 15px;
-}
-
-.black{
-    color: var(--nero);
 }
 
 /* fine header */
@@ -118,8 +124,8 @@ main{
     padding-top: 20px;
 }
 
-.justify-center{
-    justify-content: center;
+#demo .button2{
+    padding: 8px 40px;
 }
 
 .card i{
@@ -130,6 +136,7 @@ main{
 #demo h3{
     color: var(--blue);
 }
+
 #demo .card .fa-apple{
     font-size: 20px;
     color: var(--white);
@@ -138,19 +145,19 @@ main{
 #demo a{
     text-decoration: none;
 }
+
 #strategic{
     background-color:var(--viola);
     padding: 2rem 0;
 }
 
+#strategic i{
+    padding: 10px;
+}
+
 #strategic img{
     width: 60%;
 }
-
-.border50{
-    border-radius: 50%;
-}
-
 
 #partner{
     padding: 2rem 0;
@@ -161,7 +168,6 @@ main{
     
 }
 
-
 #partner img{
     width: 40%;
     margin: 20px;
@@ -170,7 +176,6 @@ main{
 #partner h1{
     color: var(--viola);
 }
-
 
 #benefits{
     padding: 3rem 0;
