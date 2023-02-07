@@ -32,7 +32,7 @@
 }
 
 .box{
-    padding: 1rem;
+    padding: 1rem 0.5rem;
 }
 
 .celeste{
@@ -72,6 +72,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     z-index: 1;
     color: var(--white);
@@ -157,7 +158,19 @@ main{
 
 #partner .card{
     margin: 2rem 0;
+    
 }
+
+
+#partner img{
+    width: 40%;
+    margin: 20px;
+}
+
+#partner h1{
+    color: var(--viola);
+}
+
 
 #benefits{
     padding: 3rem 0;
@@ -214,8 +227,19 @@ footer{
         display: flex;
     }
     
-    #partner .card div:last-child {
-        flex-grow: 1
+    #partner .partner-text{
+        width: 70%;
+        text-align: start;
+        padding: 30px 0px;
+    }
+    
+    #partner .partner-img{
+        width: 30%;
+    }
+
+    #partner img{
+        width: calc(100% - 20px);
+        
     }
 
     #benefits .cards{
@@ -291,6 +315,12 @@ footer{
         margin-left: 1rem;
         margin-right: 1rem;
         width: calc((100% / 3) - 2rem);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1170px;
     }
 }
 
