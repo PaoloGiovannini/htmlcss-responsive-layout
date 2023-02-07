@@ -12,6 +12,7 @@
     --viola: #9792e4;
     --grigio: #333333;
     --nero: black;
+    --arancione: #fdc15f;
 }
 html{
     font-family: 'Open Sans', sans-serif;
@@ -243,6 +244,24 @@ main{
 #download .text-center{
     padding: 30px 0px;
 }
+
+#download .box span{
+    font-size: 13px;
+}
+
+#download .box i{
+    font-size: 8px;
+}
+
+#download h1{
+    color: var(--arancione);
+}
+
+#download span.button2{
+    margin: 0.3rem;
+    display: inline-block;
+}
+
 /*fine main*/
 
 /* footer */
