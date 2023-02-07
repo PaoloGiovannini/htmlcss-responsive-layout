@@ -90,6 +90,14 @@ html{
     padding: 1rem;
 }
 
+.font-size50{
+    font-size: 50px;
+}
+
+.textdec-none{
+    text-decoration: none;
+}
+
 /* fine common */
 
 /* inizio header */
@@ -154,9 +162,6 @@ main{
     color: var(--white);
 }
 
-#demo a{
-    text-decoration: none;
-}
 
 #strategic{
     background-color:var(--viola);
@@ -197,9 +202,6 @@ main{
     padding: 2rem 0;
 }
 
-#benefits .card h1{
-    font-size: 50px
-}
 
 #benefits span{
     display: inline-block;
@@ -207,13 +209,32 @@ main{
 }
 
 #benefits a{
-    text-decoration: none;
     color: var(--white);
 }
 
 #about .columns{
     padding: 30px 0px;
 }
+
+#about .column2{
+    margin-top: 1rem;
+}
+
+#about p{
+    line-height: 35px;
+}
+
+#about span{
+    margin: 1rem 0.3rem;
+    display: inline-block;
+}
+
+
+#about img{
+    width: 40%;
+    border-radius: 50%;
+}
+
 #benefits .card{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -304,6 +325,12 @@ footer{
 
     #about .column2{
         width: 30%;
+    }
+
+    #about img{
+        width: 60%;
+        display: block;
+        margin: auto;
     }
 }
 
