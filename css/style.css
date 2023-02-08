@@ -237,8 +237,22 @@ main{
 
 
 #about img{
-    width: 40%;
+    width: 100%;
     border-radius: 50%;
+}
+
+.imgcont{
+    display: inline-block;
+    position: relative;
+    height: 210px;
+    width: 210px;
+}
+
+.fa-quote-left{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50px;
 }
 
 #benefits .card{
@@ -266,6 +280,7 @@ main{
     margin: 0.3rem;
     display: inline-block;
 }
+
 
 /*fine main*/
 
@@ -348,7 +363,6 @@ footer{
     }
 
     #about img{
-        width: 60%;
         display: block;
         margin: auto;
     }
