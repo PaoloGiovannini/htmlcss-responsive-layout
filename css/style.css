@@ -148,8 +148,11 @@ main{
     padding-top: 20px;
 }
 
+.card{
+    margin: 0px 10px;
+}
 
-.card i{
+#demo .card i{
     font-size: 60px;
     color: var(--blue);
 }
@@ -186,13 +189,15 @@ main{
 }
 
 #partner .card{
-    margin: 2rem 0;
-    
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
 }
 
 #partner img{
-    width: 40%;
+    width: 200px;
+    height: 200px;
     margin: 20px;
+    object-fit: cover;
 }
 
 #partner h1{
@@ -312,21 +317,11 @@ footer{
     }
     
     #partner .partner-text{
-        width: 70%;
         text-align: start;
         display: flex;
         flex-direction: column;
     }
     
-    #partner .partner-img{
-        width: 30%;
-    }
-
-    #partner img{
-        width: calc(100% - 40px);
-        
-    }
-
     #benefits .cards{
         display: flex;
         flex-wrap: wrap;
